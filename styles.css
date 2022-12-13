@@ -29,6 +29,11 @@
       color:#fff;
     }
 
+    .section-claro{
+      background-color:#fff;
+      color:#000;
+    }
+
     .section-title{
       font-size: 2rem;
       padding: 15px 0;
@@ -66,7 +71,7 @@
 /* About Me */
 
 .about-me{
-  height: 600px;
+  height: 500px;
   padding: 10px;
 }
 
@@ -74,6 +79,53 @@
   max-width: 600px;
   text-align: center;
 }
+
+
+/* Experience */
+
+.experience{
+  padding: 40px 100px 60px 100px;
+}
+
+.experience .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experience .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experience i {
+  font-size: 2.5rem;
+  color:#7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experience-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-container{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.badges {
+  margin: 5px;
+}
+
+
 
 /* adaptable(responsive) */
 
