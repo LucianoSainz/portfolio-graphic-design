@@ -49,6 +49,11 @@
       font-size: 1.2rem;
     }
 
+    .btn-info{
+      font-size: 1.1rem;
+      margin: 20px;
+    }
+
     .text-dark{
       color:#000;
     }
@@ -61,7 +66,7 @@
 
 .hero{
   background-color: #f5f6f7;
-  min-height: 450px;
+  min-height: 600px;
   text-align: center;
 }
 
@@ -192,6 +197,25 @@
   margin: 10px;
 }
 
+/* Articles */
+
+.article{
+  min-height: 500px;
+  padding: 30px;
+}
+
+.article .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.article .card-header{
+  font-weight: bold;
+}
+.article-link{
+  text-decoration: none;
+}
 
 
 /* adaptable(responsive) */
